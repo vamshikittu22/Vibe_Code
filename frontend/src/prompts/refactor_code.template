@@ -1,0 +1,58 @@
+# Code Refactoring Template
+
+## Original Code
+```javascript
+// Paste the original code here
+```
+
+## Issues to Address
+- [ ] Performance bottlenecks
+- [ ] Code duplication
+- [ ] Poor variable/function naming
+- [ ] Complex conditionals
+- [ ] Long functions/methods
+- [ ] Tight coupling
+- [ ] Lack of error handling
+- [ ] Inconsistent formatting
+- [ ] Missing comments/documentation
+- [ ] Security vulnerabilities
+
+## Refactoring Goals
+- [ ] Improve performance
+- [ ] Enhance readability
+- [ ] Increase maintainability
+- [ ] Reduce complexity
+- [ ] Improve error handling
+- [ ] Add/update tests
+- [ ] Update documentation
+
+## Proposed Changes
+1. 
+2. 
+3. 
+
+## Dependencies
+- [ ] Update existing dependencies
+- [ ] Add new dependencies
+- [ ] Remove unused dependencies
+
+## Testing
+- [ ] Unit tests
+- [ ] Integration tests
+- [ ] Manual testing
+- [ ] Performance testing
+
+## Before and After Comparison
+
+### Before
+```javascript
+// Code before refactoring
+```
+
+### After
+```javascript
+// Code after refactoring
+```
+
+## Notes
+- Add any additional notes or considerations here

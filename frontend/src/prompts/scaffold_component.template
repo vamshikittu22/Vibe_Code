@@ -1,0 +1,52 @@
+# Scaffold Component Template
+
+## Component Name
+[ComponentName]
+
+## Component Type
+- [ ] Functional Component
+- [ ] Class Component
+- [ ] Pure Component
+- [ ] Higher-Order Component
+
+## Props
+| Prop Name | Type | Required | Default | Description |
+|-----------|------|----------|---------|-------------|
+|           |      |          |         |             |
+
+## State
+| State Name | Type | Initial Value | Description |
+|------------|------|---------------|-------------|
+|            |      |               |             |
+
+## Lifecycle Methods (for class components)
+- [ ] componentDidMount
+- [ ] componentDidUpdate
+- [ ] componentWillUnmount
+- [ ] shouldComponentUpdate
+
+## Methods
+| Method Name | Parameters | Description |
+|-------------|------------|-------------|
+|             |            |             |
+
+## Styling
+- [ ] CSS Modules
+- [ ] Styled Components
+- [ ] Inline Styles
+- [ ] CSS-in-JS
+
+## Dependencies
+```json
+{
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  }
+}
+```
+
+## Notes
+- Add any additional notes or requirements here
