@@ -13,9 +13,9 @@ export default defineConfig(({ mode }) => {
     // Development server configuration
     server: {
       port: 5000,
-      host: '0.0.0.0', // Allow all hosts for Replit proxy
+      host: true, // Essential for container/proxy environments like Replit
       strictPort: true, // Exit if port is already in use
-      allowedHosts: 'all', // Allow all hosts for Replit proxy compatibility
+      allowedHosts: true, // Allow all hosts for Replit proxy compatibility
       proxy: {
         // Proxy API requests to the backend server
         '/api': {
