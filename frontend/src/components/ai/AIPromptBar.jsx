@@ -191,16 +191,23 @@ const AIPromptBar = ({ onSendPrompt, selectedCode, currentFile }) => {
           sx={{
             '& .MuiOutlinedInput-root': {
               borderRadius: 3,
-              bgcolor: 'background.neutral',
-              '& fieldset': {
+              bgcolor: theme => theme.palette.mode === 'dark' ? 'rgba(50, 50, 50, 0.8)' : 'rgba(240, 240, 240, 0.8)',
+              '& .MuiOutlinedInput-input': {
+                color: theme => theme.palette.text.primary,
+              },
+              '& .MuiOutlinedInput-notchedOutline': {
                 borderColor: 'divider',
               },
-              '&:hover fieldset': {
+              '&:hover .MuiOutlinedInput-notchedOutline': {
                 borderColor: 'primary.main',
               },
-              '&.Mui-focused fieldset': {
+              '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
                 borderColor: 'primary.main',
                 borderWidth: 2,
+              },
+              '&::placeholder': {
+                color: theme => theme.palette.text.secondary,
+                opacity: 1,
               },
             },
           }}
